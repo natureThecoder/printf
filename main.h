@@ -13,6 +13,7 @@ typedef struct print
 } print_t;
 
 int _putchar(char c);
+int _puts(char *str);
 int _printf(const char *format, ...);
 int print_c(va_list c);
 int print_s(va_list s);
@@ -27,6 +28,6 @@ int print_p(va_list p);
 int print_S(va_list S);
 int print_r(va_list r);
 int print_R(va_list R);
-int get_flags(const char *format, int *i)
+
 
 #endif
